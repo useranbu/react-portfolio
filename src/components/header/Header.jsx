@@ -16,7 +16,6 @@ const Header = () => {
 
         <div className="me">
           <img src={pic} alt="man pic"></img>
-          <h5 className="text-light">This picture is not me</h5>
         </div>
 
         <a href="#contact" className="scroll_down">
