@@ -1,9 +1,9 @@
 import React from 'react'
 import './Experience.css'
 
-const Experience = () => {
+const Experience = ({ details }) => {
   return (
-    <section id='experiance'>Experience</section>
+    <section ref={details.navRef} id={details.navID}>Experience</section>
   )
 }
 
