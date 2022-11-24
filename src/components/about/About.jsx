@@ -1,9 +1,9 @@
 import React from 'react'
 import './About.css'
 
-const About = () => {
+const About = ({details}) => {
   return (
-    <section id='about'>About</section>
+    <section ref={details.navRef} id={details.navID}>About</section> // id='about'
   )
 }
 
