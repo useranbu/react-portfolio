@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contact.css'
 
-const Contact = () => {
+const Contact = ({ details }) => {
   return (
-    <section id='contact'>Contact</section>
+    <section ref={details.navRef} id={details.navID}>Contact</section>
   )
 }
 
