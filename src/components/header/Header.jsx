@@ -4,9 +4,9 @@ import CTA from "./CTA.jsx";
 import pic from "../../assets/cartoon.png";
 import Socials from "./HeaderSocials";
 
-const Header = () => {
+const Header = ({ details }) => {
   return (
-    <header id="home">
+    <header ref={details.navRef} id={details.navID}>
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Anbarasan Ganeshkumar</h1>
