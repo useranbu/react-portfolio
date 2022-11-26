@@ -21,7 +21,7 @@ const Nav = ({ navItems }) => {
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
 
   const nearestIndex = (
     currentPosition,
