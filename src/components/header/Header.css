@@ -10,6 +10,12 @@ header {
   position: relative;
 }
 
+.alert {
+  text-align: center;
+  position: relative;
+  color: red;
+}
+
 /* ====== CTA ====== */
 
 .cta {

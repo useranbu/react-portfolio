@@ -7,6 +7,7 @@ import Socials from "./HeaderSocials";
 const Header = ({ details }) => {
   return (
     <header ref={details.navRef} id={details.navID}>
+      <h3 className="alert">INFO: This site is still being built</h3>
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Anbarasan Ganeshkumar</h1>
@@ -18,7 +19,7 @@ const Header = ({ details }) => {
           <img src={pic} alt="man pic"></img>
         </div>
 
-        <a href="#contact" className="scroll_down">
+        <a href="#about" className="scroll_down">
           Scroll Down
         </a>
       </div>
